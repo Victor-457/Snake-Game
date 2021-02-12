@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS-->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+	<title>Snake</title>
+</head>
+<body>
+    <div class="container jogo">
+        <H1>Snake Game</H1>
+        <canvas id="snake" width="512" height="512"></canvas>
+
+        <div id="gameover">
+            <button type="button" onclick="recomeca()" class="btn btn-danger">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <!--JS-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script defer src="js/script.js"></script>
+
+</body>
+
+
+</html>

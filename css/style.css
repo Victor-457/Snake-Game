@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+    margin-top: 1%;
+    background-color: rgba(45, 80, 78, 0.26);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.jogo{
+    text-align: center;
+}
+
+#gameover{
+    display: none;
+}
+
+/*Queries*/
+@media (max-width: 512px){
+	canvas{
+		width: 320px;
+		height: 320px;
+	}
+
+	.container{
+    	padding: 0;
+	}
+}
